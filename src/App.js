@@ -1,12 +1,14 @@
 import React from 'react';
-import { AppContainer } from './containers/AppContainer';
+import AppContainer from './containers/AppContainer';
 
 function App() {
-  return (
-    <div>
-      <AppContainer departure=''></AppContainer>
-    </div>
-  );
+
+
+    return (
+        <div>
+            <AppContainer></AppContainer>
+        </div>
+    );
 }
 
 export default App;
